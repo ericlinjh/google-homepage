@@ -97,5 +97,38 @@ body {
 
 .indivbutton:hover {
     border: 1px solid #5f6368;
+    cursor: pointer;
 }
 
+.footer {
+    border-top: 1px solid #212327;
+    background: #171717;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 5%;
+}
+
+.footerlinks {
+    display: flex;
+    align-items: center;;
+    justify-content: flex-start;
+    gap: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    color: #bdc1c6;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #bdc1c6;
+    font-family: arial, sans-serif;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
