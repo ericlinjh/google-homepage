@@ -1,0 +1,35 @@
+body {
+    background: #202124;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #bdc1c6;
+    font-family: arial, sans-serif;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.push {
+    margin-left: auto;
+}
+
+#pfp {
+    width: 32px;
+    height: auto;
+    border-radius: 80%;
+}
